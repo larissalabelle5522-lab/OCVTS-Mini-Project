@@ -1,3 +1,8 @@
+.logo {
+    width: 100px;
+    height: auto;
+}
+
 header {
     background-color: #5fb8a4;
     color: black;
@@ -48,3 +53,5 @@ aside {
 footer {
     clear: both;
 }
+
+
