@@ -1,0 +1,50 @@
+header {
+    background-color: #5fb8a4;
+    color: black;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+body {
+    font-family: Garamond, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #5fb8a4;
+}
+
+header, footer {
+    background-color: #5fb8a4;
+    color:black;
+    text-align: center; 
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+main {
+    width: 70%;
+    float: left;
+    padding: 20px;
+}
+
+aside {
+    width: 25%;
+    float: right;
+    padding: 20px;
+    background-color:#5fb8a4
+}
+
+footer {
+    clear: both;
+}
