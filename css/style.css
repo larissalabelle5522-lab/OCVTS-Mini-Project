@@ -1,7 +1,4 @@
-.logo {
-    width: 100px;
-    height: auto;
-}
+
 
 header {
     background-color: #5fb8a4;
@@ -11,6 +8,10 @@ header {
 
 header h1 {
     font-size: 2em;
+}
+
+.logo {
+    width: 150px;
 }
 
 body {
@@ -53,5 +54,3 @@ aside {
 footer {
     clear: both;
 }
-
-

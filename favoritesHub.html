@@ -3,33 +3,54 @@
    
 <head> 
     <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Favorites Hub</title> 
      
     <link rel="stylesheet" href="css/style.css"> 
-    <link rel="pages" href="pages/pages.html"> 
-    <script src="js/script"></script> 
+    <link rel="pages.html" href="pages/pages.html">
  
 </head> 
  
- 
-<body>  
+<body>
     <header> 
-        <a href="index.html"> 
-            <img src="favoriteHublogo.png" alt="Favorite HubLogo"> 
-            <class="logo"> 
-            </class> 
-        </a> 
-    </body> 
- 
-</html> 
-  
+        <nav>
+            <a class="Favorites Hub" href="favoritesHub.html">Favorites Hub</a>
+            <nav aria-label="Main navigation">
+                <a href="favortiesHub.html">Home</a>
+                <a href="pages/pages.html">My Favorites</a>
+        </nav>
+    </header>
+</body>
+
+    <body>
         <main> 
-            <h1>Welcome to the Favorites Hub!</h1> 
-            <p>Here are some of my favorites things! Hope you can find something you like.</p> 
- 
-            <a href="pages/favoritemovies/series.html">Favorite Movies and Series</a> 
-            <!-- view my favorites --> 
-            </a> 
+            <section class="hero">
+                <h1>Welcome to the Favorites Hub!</h1> 
+                <p>Here are some of my favorites things! Hope you can find something you like.</p> 
+
+                <a class="button" href="pages/pages.html">Explore My Favorites</a>
+            </section>
+
+            <section>
+                <h2 id="categories-title">Explore by catagory</h2>
+                <div class="card-grid">
+                    <a class=""card href="pages/pages.html#movies">
+                        <h3>Movies and Series</h3>
+                        <p>These are the movies/series I find interseting and enjoyable to watch.</p>
+                    </a>
+                    
+                    <a class="card" href="pages/pages.html#artwork">
+                    <h3>Artwork Sites</h3>
+                    <p>Places I find give me inspiration.</p>
+                    </a>
+
+                    <a class="card" href="pages/pages.html#games">
+                    <h2>Games</h2>
+                    <p> Fun Games I find fun even with all the school restrictions.</p>
+                    </a>
+
+                </div>
+            </section>
         </main> 
  
         <hr> 
@@ -40,13 +61,6 @@
                 Contact us at <a href="mailto:larissalabelle5522@gmail.com">larissalabelle5522@gmail.com</a> 
             </address> 
         </footer> 
-        <p><small> 
-            <!-- Legal disclaimer text here --> 
-        </small></p> 
-         
-        <address> 
-            Written by Larissa LaBelle<br> 
-            Call us at: 848-245-5522 
-        </address> 
+       
     </body> 
 </html> 
